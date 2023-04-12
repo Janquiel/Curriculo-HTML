@@ -51,16 +51,17 @@
     display: none;
 }
 .foto img{   
-    height: 150;
+    height: 160;
     width: 200;
 }
 .foto:target{
-    z-index: 1;
+
     position: fixed;
+    align-self:flex-start;
     top: 5px;
-    left: 26%;
+    left: 0%;
     padding:  0 !important;
-    width: 48%;
+    width: 200%;
     border: solid 1px black;
     box-shadow: 0 0 20px;
     background: white;
@@ -126,9 +127,33 @@
     box-shadow: 10px 10px 10px black;    
 }
 .cardp1{
-    z-index: 1;
+    z-index: 1;  
 }
 .cardp2{
+    z-index: 1;
+}
+.carda1{
+    z-index: 5;
+}
+.carda2{
+    z-index: 4;
+}
+.carda3{
+    z-index: 3;
+}
+.carda4{
+    z-index: 2;
+}
+.carda5{
+    z-index: 8;
+}
+.carda6{
+    z-index: 7;
+}
+.carda7{
+    z-index: 6;
+}
+.carda8{
     z-index: 1;
 }
 

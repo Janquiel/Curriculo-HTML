@@ -1,0 +1,134 @@
+#body{
+    background-color: rgb(155, 155, 155);
+    
+}
+#titulo{
+    color: white;
+    text-align: center;
+    margin-top: 1.5cm;
+    align-items: center;
+}
+
+.fotoperf{
+    border-radius: 100%;
+    transform: rotate(0deg);   
+}
+.fotoperf:hover{
+    transform:scale(150%);
+    transition: 3s;
+    box-shadow: 10px 10px 10px black;
+}
+.texto{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    margin-top: 0.5cm;
+}
+.btn-primary{
+    align-self:center;
+}
+.btn-primary:hover{
+    background-color: darkblue;
+}
+.textcard{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.homelink{
+    color: blue;
+    justify-content: end;
+    margin-right: 1cm;
+}
+.homelink:hover{
+    color:darkblue;  
+}
+.titulos{
+    text-align: center;
+    margin: 0.5cm;
+}
+.detalhes {
+    display: none;
+}
+.foto img{   
+    height: 150;
+    width: 200;
+}
+.foto:target{
+    z-index: 1;
+    position: fixed;
+    top: 5px;
+    left: 26%;
+    padding:  0 !important;
+    width: 48%;
+    border: solid 1px black;
+    box-shadow: 0 0 20px;
+    background: white;
+    border-radius: 5px;
+}
+.foto:target .detalhes{
+    display: block;
+}
+.carousel-indicators{
+    margin-bottom: 0%;
+    background-color: gray; 
+    opacity: 0.4;
+}
+.animate{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.b-hobbies{
+    align-items: center;
+    text-align: center;
+}
+.card-link:link{
+    color: blue;
+}
+.card-link:hover{
+    color: darkblue
+}
+.card-link:active{
+    color: black;
+    background-color: blue;
+}
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes bounce{
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(640px, 0, 0);
+    }
+}
+#ball {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: darkblue;
+    animation: bounce 4s linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.linhaanim{
+    height: 130px;
+    display: flexbox;
+}
+.animcss{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    background-color:darkviolet;
+}
+.cartao{
+    box-shadow: 10px 10px 10px black;    
+}
+.cardp1{
+    z-index: 1;
+}
+.cardp2{
+    z-index: 1;
+}
+
